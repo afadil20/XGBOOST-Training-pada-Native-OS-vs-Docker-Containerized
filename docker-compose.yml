@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  xgboost-experiment:
+    build: .
+    image: fwa-xgboost:latest
+    container_name: fwa_xgboost_container
+    command: ["python", "training.py", "--env", "docker", "--ndata", "${NDATA:-2827876}"] 
+    volumes:
+      - ./data:/app/data
+      - ./hasil_monitoring:/app/hasil_monitoring
+
+    # # 🅰️ DIBATASI (2 CPU / 4 GB) — berlaku saat docker-compose up
+    # mem_limit: 4g
+    # cpus: 2.0
