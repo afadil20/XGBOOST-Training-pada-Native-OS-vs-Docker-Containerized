@@ -21,7 +21,7 @@ Benchmark training XGBoost: perbandingan performa **Native OS** vs **Docker Cont
 ├── _cek_benign.py           # Cek distribusi label BENIGN
 ├── .dockerignore            # Docker build ignore
 ├── .gitignore               # Git ignore
-├── data/                    # Dataset ISCX-UNB 2012 (8 file CSV) — NOT IN REPO
+├── data/                    # Dataset CIC IDS 2017 (8 file CSV) — NOT IN REPO
 ├── hasil_monitoring/        # Output CSV & grafik — NOT IN REPO
 ├── hasil_monitoring_docker/ # Output Docker — NOT IN REPO
 └── _archive/_SIDANG_CATATAN.md  # Catatan presentasi sidang
