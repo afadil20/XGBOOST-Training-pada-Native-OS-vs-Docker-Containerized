@@ -1,4 +1,4 @@
-# XGBoost Native vs Docker Benchmark (ISCX-UNB 2012)
+# XGBoost Native vs Docker Benchmark (CIC IDS 2017)
 
 Benchmark training XGBoost: perbandingan performa **Native OS** vs **Docker Containerized** menggunakan dataset **ISCX-UNB 2012 IDS** (Intrusion Detection System).
 
