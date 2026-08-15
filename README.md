@@ -255,7 +255,7 @@ services:
 
 ## 📄 Lisensi
 
-Project ini untuk keperluan akademik (jurnal/sidang). Dataset ISCX-UNB 2012 milik UNB/CIC.
+Project ini untuk keperluan akademik (jurnal/sidang). Dataset CIC IDS dibuat oleh Canadian Institute for Cybersecurity (CIC)
 
 ---
 
